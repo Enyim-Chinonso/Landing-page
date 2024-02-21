@@ -1,112 +1,83 @@
-body{
-    /* MOBILE FIRST DESIGN APPROACH */
-    @media only screen and (max-width: 300px){
-    }
-    /* .section-1{
-        flex-direction: column;
-    }
-
-    .image{
-        display: none;
-    }
-
-    background-color: white;
-}
-.mobile ul{
+.nav-menu{
     display: none;
 }
-
-.mobile h3{
-    display: flex;
-    align-content: right;
-} */
-
-
 nav{
-    padding: 16px 8px;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
     align-items: center;
-    
-} 
-
-/* nav ul{
-    display: none;
 }
-
-nav button{
-    display: none;
+.logo{
+    width: 30%;
 }
-
-/* h1, p{
-    justify-content: space-around;
-
+.harmburger{
+    width: 20px;
 }
- 
-    
-/* laptop */
-@media only screen and (min-width: 1024px){
-
-}
- nav h3{
-        display: none;
-    }
-
-nav{ 
-padding: 16px 100px;
-}
-
-nav ul{
-    display: flex;
-    list-style: none;
-    gap: 20px;
- }
-
- a{
-    text-decoration: none;
- }
-
-nav button{
-    display: flex;
-    border-radius: 15px;
+.box{
     background-color: blue;
     color: white;
-    padding: 5px 5px;
     border-style: none;
-    font-size: 10px;
+    font-size: 5px;
+    height: 15px;
+    width: 100px;
+}
+
+
+@media only screen and (min-width:600px) {
+    .harmburger{
+        display: none;
     }
-
-    h1{
-        font-size: 30px;
-        justify-content: space-around;
-     }
-
-     .container{
-        margin: 50px;
+    .nav-menu{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
     }
-
+    nav{
+        justify-content: center;
+        gap: 2rem;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        gap: 20px;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    .button{
+        border-radius: 10px;
+        padding: 10px;
+        border-style: none;
+        background-color: blue;
+        color: white;
+        font-size: 10px;
+    }
     .section-1{
         display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box{
+        background-color: blue;
+        border-style: none;
+        color: white;
+        font-size: 10px;
+        height: 20px;
+        width: 200px;
+    }
+    .image{
+        text-align: center;
+        justify-content: center;
     }
 
     
-     .box{
-        background-color: blue;
-        color: white;
-        border: 2px 5px;
-        border-style: none;
-        border-radius: 5px;
-        padding: 10px;
-        width: 200px;
-        height: 30px;
-        font-size: 10px;
-        }
 
-        .image{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-     
-  
+    }
+
+    
+
+
